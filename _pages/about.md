@@ -1,17 +1,16 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: PhD candidate major in motion planning at Department of Advanced Manufacturing and Robotics, Peking University.
+subtitle: PhD candidate, Robotics, Peking University.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: QYK_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>📱: +86 198 4809 7538</p>
+    <p>📧: qiaoyike at stu.pku.edu.cn</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -22,7 +21,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
