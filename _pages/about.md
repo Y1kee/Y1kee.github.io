@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD candidate major in motion planning at Department of Advanced Manufacturing and Robotics, Peking University.
 
 profile:
   align: right
