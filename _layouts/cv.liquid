@@ -79,48 +79,84 @@ layout: default
 
     <article>
       <div class="cv">
-        {% for data in site.data.resume %}
-          {% if site.jsonresume and site.jsonresume.size > 0 %}
-            {% unless site.jsonresume contains data[0] %}
-              {% continue %}
-            {% endunless %}
-          {% endif %}
-          {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
-          <a class="anchor" id="{{ data[0] }}"></a>
+        {% assign resume_order = site.jsonresume | default: nil %}
+        {% if resume_order and resume_order.size > 0 %}
+          {% for section_key in resume_order %}
+            {% assign section_value = site.data.resume[section_key] %}
+            {% if section_value == nil or section_value.size == 0 %} {% continue %} {% endif %}
+            <a class="anchor" id="{{ section_key }}"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
+            <h3 class="card-title font-weight-medium">{{ section_key | capitalize }}</h3>
             <div>
-              {% case data[0] %}
+              {% case section_key %}
                 {% when 'basics' %}
-                  {% include resume/basics.liquid %}
+                  {% include resume/basics.liquid data=section_value %}
                 {% when 'education' %}
-                  {% include resume/education.liquid %}
+                  {% include resume/education.liquid data=section_value %}
                 {% when 'work' %}
-                  {% include resume/work.liquid %}
+                  {% include resume/work.liquid data=section_value %}
                 {% when 'volunteer' %}
-                  {% include resume/volunteer.liquid %}
+                  {% include resume/volunteer.liquid data=section_value %}
                 {% when 'projects' %}
-                  {% include resume/projects.liquid %}
+                  {% include resume/projects.liquid data=section_value %}
                 {% when 'awards' %}
-                  {% include resume/awards.liquid %}
+                  {% include resume/awards.liquid data=section_value %}
                 {% when 'skills' %}
-                  {% include resume/skills.liquid %}
+                  {% include resume/skills.liquid data=section_value %}
                 {% when 'publications' %}
-                  {% include resume/publications.liquid %}
+                  {% include resume/publications.liquid data=section_value %}
                 {% when 'languages' %}
-                  {% include resume/languages.liquid %}
+                  {% include resume/languages.liquid data=section_value %}
                 {% when 'interests' %}
-                  {% include resume/interests.liquid %}
+                  {% include resume/interests.liquid data=section_value %}
                 {% when 'certificates' %}
-                  {% include resume/certificates.liquid %}
+                  {% include resume/certificates.liquid data=section_value %}
                 {% when 'references' %}
-                  {% include resume/references.liquid %}
+                  {% include resume/references.liquid data=section_value %}
                 {% else %}
 
               {% endcase %}
             </div>
           </div>
-        {% endfor %}
+          {% endfor %}
+        {% else %}
+          {% for data in site.data.resume %}
+            {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
+            <a class="anchor" id="{{ data[0] }}"></a>
+            <div class="card mt-3 p-3">
+              <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
+              <div>
+                {% case data[0] %}
+                  {% when 'basics' %}
+                    {% include resume/basics.liquid %}
+                  {% when 'education' %}
+                    {% include resume/education.liquid %}
+                  {% when 'work' %}
+                    {% include resume/work.liquid %}
+                  {% when 'volunteer' %}
+                    {% include resume/volunteer.liquid %}
+                  {% when 'projects' %}
+                    {% include resume/projects.liquid %}
+                  {% when 'awards' %}
+                    {% include resume/awards.liquid %}
+                  {% when 'skills' %}
+                    {% include resume/skills.liquid %}
+                  {% when 'publications' %}
+                    {% include resume/publications.liquid %}
+                  {% when 'languages' %}
+                    {% include resume/languages.liquid %}
+                  {% when 'interests' %}
+                    {% include resume/interests.liquid %}
+                  {% when 'certificates' %}
+                    {% include resume/certificates.liquid %}
+                  {% when 'references' %}
+                    {% include resume/references.liquid %}
+                  {% else %}
+                {% endcase %}
+              </div>
+            </div>
+          {% endfor %}
+        {% endif %}
       </div>
     </article>
   </div>
