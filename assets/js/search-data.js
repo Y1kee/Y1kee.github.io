@@ -369,7 +369,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-present-our-work-on-3d-curvature-constrianed-nonholonomic-motion-planning-at-ieee-cdc-2024-milan-italy-paper-link",
+            },},{id: "news-i-present-our-work-on-3d-curvature-constrianed-nonholonomic-motion-planning-at-ieee-cdc-2024-milan-italy",
           title: 'I present our work on 3D curvature-constrianed nonholonomic motion planning at IEEE CDC...',
           description: "",
           section: "News",},{id: "news-our-latest-work-curvature-constrained-vector-field-for-motion-planning-of-nonholonomic-robots-is-accepted-by-ieee-t-ro",
