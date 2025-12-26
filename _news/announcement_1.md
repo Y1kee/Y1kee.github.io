@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I present our work on 3D curvature-constrianed nonholonomic motion planning at IEEE CDC 2024, Milan, Italy! [Paper link](https://ieeexplore.ieee.org/abstract/document/10886648/)
+I present our work on [3D curvature-constrianed nonholonomic motion planning](https://ieeexplore.ieee.org/abstract/document/10886648/) at IEEE CDC 2024, Milan, Italy!

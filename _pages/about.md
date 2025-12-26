@@ -2,15 +2,15 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD candidate, Robotics, Peking University.
+subtitle: PhD candidate, Class of 2027, Robotics, Peking University.
 
 profile:
   align: right
   image: QYK_pic.jpg
   image_circular: false # crops the image to make it circular
-  # more_info: >
-  #   <p>📱: +86 198 4809 7538</p>
-  #   <p>📧: qiaoyike at stu.pku.edu.cn</p>
+  more_info: >
+    <p>Physics intuition drives intelligence;</p>
+    <p>Formal math makes it certain.</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,9 +26,17 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I will be on the job market in 2026.
-I am seeking postdoctoral positions in academia or research scientist roles in industry, with a start date in 2027.
-If you’re hiring or interested in collaborating, feel free to reach out via the links provided at the bottom of the page.
+
+<!-- My research focuses on motion planning for mobile robots, specifically addressing the challenges of kinematic constraints. 
+I am driven by the urge to formalize physical intuition with control theory, turning abstract Lyapunov functions into trustworthy robotic behavior. -->
+My current research focuses on **motion planning** for mobile robots, specifically addressing the challenges of **kinematic constraints**. 
+I am compelled by the endeavor to formalize physical intuition with control theory, turning abstract Lyapunov functions into **safe and stable** robotic behavior.
+
+In the increasingly autonomous future, I seek to **anchor the high-performing power of machine learning within safe and explainable theoretical frameworks**. 
+I envision a world where we can trust the physical intelligence moving around us.
+
+I will be on the job market in 2026, open for postdoctoral positions in academia and research scientist roles in industry. 
+Any inquiries or collaborations are welcomed. Please feel free to reach out via the contact links provided at the bottom of this page.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
