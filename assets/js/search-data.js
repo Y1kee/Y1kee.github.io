@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "To be completed soon.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -39,17 +39,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/plotly/";
-          
-        },
-      },{id: "post-a-post-with-image-galleries",
-        
-          title: "a post with image galleries",
-        
-        description: "this is what included image galleries could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/photo-gallery/";
           
         },
       },{id: "post-a-post-with-tabs",
@@ -105,17 +94,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/code-diff/";
-          
-        },
-      },{id: "post-a-post-with-advanced-image-components",
-        
-          title: "a post with advanced image components",
-        
-        description: "this is what advanced image components could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/advanced-images/";
           
         },
       },{id: "post-a-post-with-vega-lite",
@@ -349,17 +327,6 @@ ninja.data = [{
             window.location.href = "/blog/2015/code/";
           
         },
-      },{id: "post-a-post-with-images",
-        
-          title: "a post with images",
-        
-        description: "this is what included images could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/images/";
-          
-        },
       },{id: "post-a-post-with-formatting-and-links",
         
           title: "a post with formatting and links",
@@ -376,14 +343,17 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-present-our-work-on-3d-curvature-constrianed-nonholonomic-motion-planning-at-ieee-cdc-2024-milan-italy",
-          title: 'I present our work on 3D curvature-constrianed nonholonomic motion planning at IEEE CDC...',
+            },},{id: "news-i-will-be-presenting-our-work-on-3d-curvature-constrianed-nonholonomic-motion-planning-at-ieee-cdc-2024-milan-italy",
+          title: 'I will be presenting our work on 3D curvature-constrianed nonholonomic motion planning at...',
           description: "",
-          section: "News",},{id: "news-our-latest-work-curvature-constrained-vector-field-for-motion-planning-of-nonholonomic-robots-is-accepted-by-ieee-t-ro",
+          section: "News",},{id: "news-our-latest-work-curvature-constrained-vector-field-for-motion-planning-of-nonholonomic-robots-is-accepted-by-ieee-t-ro-check-it-out-here",
           title: 'Our latest work “Curvature-Constrained Vector Field for Motion Planning of Nonholonomic Robots” is...',
           description: "",
-          section: "News",},{id: "news-the-t-ro-paper-is-available-online-check-it-out-here",
-          title: 'The T-RO paper is available online, check it out here!',
+          section: "News",},{id: "news-i-released-an-open-source-toolbox-bibsanity-that-sanity-checks-your-bibtex-file-one-terminal-command-before-submission-that-s-all-it-takes-to-keep-your-references-flawless",
+          title: 'I released an open-source toolbox BibSanity that sanity-checks your BibTeX file. One terminal...',
+          description: "",
+          section: "News",},{id: "news-i-released-an-open-source-toolbox-video2traj-for-robotics-researchers-to-turn-their-robot-experiment-videos-into-publication-ready-trajectory-figures-for-papers-and-talks",
+          title: 'I released an open-source toolbox Video2Traj for robotics researchers to turn their robot...',
           description: "",
           section: "News",},{id: "projects-video2traj",
           title: 'Video2Traj',
@@ -396,13 +366,6 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
@@ -428,21 +391,21 @@ ninja.data = [{
         title: 'YouTube',
         section: 'Socials',
         handler: () => {
-          window.open("https://youtube.com/@https://www.youtube.com/@Yike-QIAO", "_blank");
+          window.open("https://youtube.com/@Yike-QIAO", "_blank");
         },
       },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/www.linkedin.com/in/亦可-乔-9bab2238b", "_blank");
+          window.open("https://www.linkedin.com/in/亦可-乔-9bab2238b", "_blank");
         },
       },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=lpom0kgAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=1FehaPkAAAAJ", "_blank");
         },
       },{
       id: 'light-theme',
