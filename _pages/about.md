@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD candidate, Class of 2027, Robotics, Peking University.
+subtitle: PhD candidate in Robotics, Class of 2027, Peking University.
 
 profile:
   align: right
