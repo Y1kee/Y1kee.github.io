@@ -1,11 +1,11 @@
 metadata:
-  last_updated: '2025-12-29'
+  last_updated: '2026-03-02'
 papers:
-  lpom0kgAAAAJ:u-x6o8ySG0sC:
-    citations: 0
-    title: Curvature-Constrained Vector Field for Motion Planning of Nonholonomic Robots
-    year: '2025'
-  lpom0kgAAAAJ:u5HHmVD_uO8C:
+  1FehaPkAAAAJ:UeHWp8X0CEIC:
     citations: 2
-    title: Motion Planning of 3D Nonholonomic Robots via Curvature-Constrained Vector Fields
+    title: Motion planning of 3D nonholonomic robots via curvature-constrained vector fields
     year: '2024'
+  1FehaPkAAAAJ:zYLM7Y9cAGgC:
+    citations: 2
+    title: Curvature-Constrained Vector Field for Motion Planning of Nonholonomic Robots
+    year: '2026'
