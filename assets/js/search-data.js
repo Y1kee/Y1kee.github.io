@@ -401,7 +401,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/亦可-乔-9bab2238b", "_blank");
+          window.open("https://www.linkedin.com/in/yike-qiao-9bab2238b", "_blank");
         },
       },{
         id: 'social-scholar',
