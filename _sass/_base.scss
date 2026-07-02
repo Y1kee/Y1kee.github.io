@@ -218,6 +218,31 @@ ul.task-list input[type="checkbox"] {
   margin-right: 1rem;
 }
 
+.about-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(240px, 32%);
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.about-hero-single {
+  grid-template-columns: 1fr;
+}
+
+.profile.about-profile {
+  width: 100%;
+
+  .more-info {
+    margin-top: 1rem;
+    font-size: 0.75rem;
+    line-height: 1.45;
+
+    p {
+      display: block;
+    }
+  }
+}
+
 @media (min-width: 576px) {
   .profile {
     width: 30%;
@@ -227,6 +252,13 @@ ul.task-list input[type="checkbox"] {
         display: block;
       }
     }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .about-hero {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 }
 

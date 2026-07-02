@@ -9,7 +9,7 @@ profile:
   image: QYK_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Physics intuition drives intelligence;</p>
+    <p>Physics intuition drives intelligence,</p>
     <p>Control theory makes it certain.</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -30,13 +30,13 @@ latest_posts:
 <!-- My research focuses on motion planning for mobile robots, specifically addressing the challenges of kinematic constraints. 
 I am driven by the urge to formalize physical intuition with control theory, turning abstract Lyapunov functions into trustworthy robotic behavior. -->
 My current research focuses on **motion planning** for mobile robots, specifically addressing the challenges of **kinematic constraints**. 
-I am compelled by the endeavor to formalize physical intuition with control theory, turning abstract Lyapunov functions into **safe and stable** robotic behavior.
+I am compelled by the endeavor to formalize physical intuition with **control theory**, encoding **safe and stable** into robotic behavior.
 
-In the increasingly autonomous future, I seek to **anchor the high-performing power of machine learning within safe and explainable theoretical frameworks**. 
+In the increasingly autonomous future, I seek to **anchor the high-performing power of machine learning within safe and interpretable theoretical frameworks**. 
 I envision a world where we can trust the physical intelligence moving around us.
 
-I will be on the job market in 2026, open for postdoctoral positions in academia and research scientist roles in industry. 
-Any inquiries or collaborations are welcomed. Please feel free to reach out via the contact links provided at the bottom of this page.
+I will be on the job market this year, open for both postdoctoral positions in academia and research scientist roles in industry. 
+Any inquiries or collaborations are welcomed. Please feel free to reach out via the **contact links provided below**.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

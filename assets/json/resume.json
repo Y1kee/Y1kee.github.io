@@ -76,17 +76,19 @@
       "keywords": [
         "For robotics hardware deployment"
       ]
+    },
+    {
+      "name": "Gazebo",
+      "icon": "fa-solid fa-laptop",
+      "keywords": [
+        "For high-fidelity simulation"
+      ]
     }
   ],
   "languages": [
     {
       "language": "Chinese",
       "fluency": "Native speaker",
-      "icon": "fa-solid fa-language"
-    },
-    {
-      "language": "Cantonese",
-      "fluency": "Conversational",
       "icon": "fa-solid fa-language"
     },
     {
