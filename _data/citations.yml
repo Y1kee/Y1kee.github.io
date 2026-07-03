@@ -1,11 +1,11 @@
 metadata:
-  last_updated: '2026-04-17'
+  last_updated: '2026-07-03'
 papers:
   1FehaPkAAAAJ:UeHWp8X0CEIC:
     citations: 3
     title: Motion planning of 3D nonholonomic robots via curvature-constrained vector fields
     year: '2024'
   1FehaPkAAAAJ:zYLM7Y9cAGgC:
-    citations: 3
+    citations: 4
     title: Curvature-Constrained Vector Field for Motion Planning of Nonholonomic Robots
     year: '2026'
